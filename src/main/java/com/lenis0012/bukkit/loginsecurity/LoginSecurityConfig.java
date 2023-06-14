@@ -69,7 +69,7 @@ public class LoginSecurityConfig extends AbstractConfig {
             "Disabling this can be a security risk!"
     })
     @ConfigKey(path="username.filter-special-chars")
-    private boolean filterSpecialChars = true;
+    private boolean filterSpecialChars = false;
     @ConfigKey(path="username.min-length")
     private int usernameMinLength = 3;
     @ConfigKey(path="username.max-length")
